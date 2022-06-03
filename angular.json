@@ -24,6 +24,8 @@
             "tsConfig": "tsconfig.app.json",
             "assets": [
               { "glob": "**/*", "input": "node_modules/monaco-editor/min", "output": "./assets/monaco/" },
+              { "glob": "**/*", "input": "node_modules/@elsa-workflows/elsa-workflows-studio/dist/elsa-workflows-studio/assets", "output": "./assets/" },
+              { "glob": "*.css", "input": "node_modules/@elsa-workflows/elsa-workflows-studio/dist/elsa-workflows-studio", "output": "./assets/" },
               "src/favicon.ico",
               "src/assets"
             ],
