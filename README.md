@@ -34,7 +34,7 @@ elsaCustomElements();
 - finally load css and monaco in index.html
 
 ```
-<link rel="stylesheet" href="assets/elsa-workflows-studio/fonts/inter/inter.css" />
+<link rel="stylesheet" href="assets/fonts/inter/inter.css" />
   <link rel="stylesheet" href="assets/elsa-workflows-studio.css" />
   <script src="assets/monaco/vs/loader.js"></script>
 ```
